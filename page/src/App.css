@@ -1,0 +1,98 @@
+cd page.App {
+  text-align: center;
+  float: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+.App-header {
+  background-color: #252b42;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+  
+}
+body{
+  background-color: #252b42;
+  color: white;
+}
+
+.text {
+  float: left;
+  width: 43px;
+  padding: 119px;
+  height: 28px;
+  size: 15px;
+  color: white;
+  letter-spacing: 0.2px;
+  margin-top: 160px;
+}
+
+.contact {
+  float: left;
+  padding: 119px;
+  height: 28px;
+  text-size-adjust: 15px;
+  letter-spacing: 0.2px;
+  margin-top: 176px;
+  line-height: 55px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+.ver  {
+  display: table-column;
+  float: left;
+  margin-left: 1030px;
+  padding: 20px;
+  height: 28px;
+  line-height: 2px;
+}
+.icon 
+{
+  float: left;
+  padding: 20px;
+  width: 10px;
+  height: 28px;
+  size: 15px;
+  margin-bottom: 90px;
+  margin-right: 10px;
+}
+
+@font-face {
+	font-family: "Graphik-Regular";
+	src: local('Graphik-Regular'), url('./font/Graphik-Regular.ttf') format('truetype');
+  
+}
+
+
+
